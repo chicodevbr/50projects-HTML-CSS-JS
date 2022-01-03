@@ -1,4 +1,4 @@
-const KEY = process.env.KEY_TMDB;
+const KEY = '0764bb25443c929eb862d38db81a08b8';
 
 const API_URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${KEY}&page=1`;
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${KEY}&query="`;
